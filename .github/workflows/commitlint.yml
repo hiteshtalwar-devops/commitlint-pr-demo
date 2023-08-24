@@ -2,6 +2,7 @@ name: Run commitlint on PR
 
 on:
   pull_request:
+    types: [edited, opened]
 
 jobs:
 
